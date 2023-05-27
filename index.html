@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="Head">
+        <button class="reset">RESET</button>
+        <p>Previous HighScore:<span class="prev"></span></p>
+        <p>Guess a number from (1 to 30)</p>
+      </div>
+      <div class="box">
+        <p>
+          <marquee behavior="alternate" direction="right"
+            >🎮🎮LET PLAY WHO CAN GUESS RIGHT🎮🎮</marquee
+          >
+        </p>
+        <p class="quest">?</p>
+      </div>
+      <div class="box3">
+        <div class="box1">
+          <input type="number" class="guess" placeholder="Guess a number" />
+          <button class="check">Check</button>
+        </div>
+        <div class="box2">
+          <p class="start">Start guessing...</p>
+          <p>Score: <span class="score">0</span></p>
+          <p>HighScore:<span class="high">0</span></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
